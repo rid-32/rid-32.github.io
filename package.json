@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio for job",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rid-32/rid-32.github.io.git"
+  },
+  "author": "RiD_32",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rid-32/rid-32.github.io/issues"
+  },
+  "homepage": "https://github.com/rid-32/rid-32.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}
