@@ -166,6 +166,10 @@ body {
           border-radius: 50%;
   background-color: #000000;
 }
+#pageHeader #sliderStickers li a {
+  display: block;
+  height: 100%;
+}
 #pageHeader #sliderStickers li:first-child {
   margin-left: 0;
 }
@@ -346,6 +350,10 @@ body {
   margin-right: 8px;
   background-color: transparent;
 }
+.quotes-content #famousQuotes #quoteContent #quotesSliderStickers li a {
+  display: block;
+  height: 100%;
+}
 .quotes-content #famousQuotes #quoteContent #quotesSliderStickers li:first-child {
   margin-left: 0;
 }
@@ -415,8 +423,8 @@ body {
   -webkit-background-size: cover;
           background-size: cover;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .love-quote h2 {
   margin: 0;
@@ -487,7 +495,6 @@ body {
           flex-wrap: wrap;
   margin-left: 10px;
   margin-right: 10px;
-  visibility: hidden;
 }
 .buy-prints .posters .buy-and-share .buy-now {
   display: block;
@@ -543,9 +550,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.buy-prints .posters .poster-1:hover .buy-and-share {
-  visibility: visible;
-}
 .buy-prints .posters .poster-block-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -586,9 +590,6 @@ body {
 .buy-prints .posters .poster-block-1 .poster-2 .buy-and-share {
   margin-top: 50px;
 }
-.buy-prints .posters .poster-block-1 .poster-2:hover .buy-and-share {
-  visibility: visible;
-}
 .buy-prints .posters .poster-block-1 .poster-block-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -618,9 +619,6 @@ body {
 .buy-prints .posters .poster-block-1 .poster-block-2 .poster-3 .buy-and-share {
   margin-top: 120px;
 }
-.buy-prints .posters .poster-block-1 .poster-block-2 .poster-3:hover .buy-and-share {
-  visibility: visible;
-}
 .buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 {
   background: #000000 url("../img/poster-4.png") no-repeat center top;
   -webkit-background-size: cover;
@@ -646,9 +644,6 @@ body {
 }
 .buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 .buy-and-share {
   margin-top: 20px;
-}
-.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4:hover .buy-and-share {
-  visibility: visible;
 }
 .buy-prints .posters-button {
   margin-top: 50px;

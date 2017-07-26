@@ -126,6 +126,7 @@
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+  visibility: hidden;
 }
 .buy-prints .posters .buy-and-share .buy-now {
   margin-top: 20px;
@@ -143,6 +144,9 @@
   font-size: 5rem;
   margin-bottom: 150px;
 }
+.buy-prints .posters .poster-1:hover .buy-and-share {
+  visibility: visible;
+}
 .buy-prints .posters .poster-block-1 {
   -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
@@ -152,8 +156,17 @@
 .buy-prints .posters .poster-block-1 .poster-2 {
   padding-top: 100px;
 }
+.buy-prints .posters .poster-block-1 .poster-2:hover .buy-and-share {
+  visibility: visible;
+}
 .buy-prints .posters .poster-block-1 .poster-block-2 {
   margin-top: 0;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-3:hover .buy-and-share {
+  visibility: visible;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4:hover .buy-and-share {
+  visibility: visible;
 }
 .page-footer {
   padding-top: 80px;
