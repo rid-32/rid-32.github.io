@@ -1,0 +1,231 @@
+.main-button {
+  font-size: 1.25rem;
+  padding: 15px 40px;
+}
+.block-title {
+  font-size: 2.25rem;
+}
+.short-line {
+  width: 80px;
+  margin-top: 20px;
+}
+#pageHeader {
+  background-position: center center;
+}
+#pageHeader .header-top .header-logo {
+  width: 200px;
+  height: 80px;
+  padding: 25px 22px;
+  font-size: 1.875rem;
+}
+#pageHeader .header-top #menuButton {
+  margin-top: 8px;
+}
+#pageHeader #sliderContent {
+  text-align: left;
+  margin-left: 44.25%;
+  height: 250px;
+}
+#pageHeader #sliderContent h1 {
+  font-size: 8.75rem;
+}
+#pageHeader #sliderContent span {
+  font-size: 2.3rem;
+}
+#pageHeader #sliderStickers {
+  margin-top: 120px;
+}
+#pageHeader #sliderStickers li {
+  width: 16px;
+  height: 16px;
+  margin-right: 24px;
+}
+#pageHeader #sliderStickers li:last-child {
+  margin-right: 0;
+}
+#pageHeader #headerMenu #closeHeaderMenu {
+  top: 41px;
+}
+#pageHeader #headerMenu #headerMenuList li a {
+  font-size: 2.25rem;
+}
+#pageHeader #leftPointer,
+#pageHeader #rightPointer {
+  width: 50px;
+  height: 50px;
+  top: 530px;
+}
+#pageHeader #leftPointer {
+  left: 30px;
+  padding-left: 20px;
+}
+#pageHeader #rightPointer {
+  right: 30px;
+  padding-left: 12px;
+}
+.free-tamplate span {
+  font-size: 2.25rem;
+}
+.free-tamplate h2 {
+  margin-top: 20px;
+}
+.free-tamplate .commercialNote {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+.free-tamplate .tamplate-content,
+.free-tamplate .tamplate-addition {
+  padding-left: 0;
+  padding-right: 0;
+  width: 80%;
+  font-size: 1rem;
+}
+.free-tamplate .tamplate-addition {
+  text-align: center;
+}
+.quotes-content {
+  background-image: none;
+}
+.quotes-content #famousQuotes #quoteContent {
+  float: left;
+  width: 36%;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.quotes-content #famousQuotes #quoteContent #quotesSliderStickers li {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+.quotes-content #famousQuotes .quote-image {
+  display: block;
+  float: right;
+  width: 50%;
+  max-width: 798px;
+  background-color: #000000;
+}
+.quotes-content #famousQuotes .quote-image img {
+  max-width: 100%;
+  display: block;
+}
+.reasons .reasons-content div {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 0;
+  margin-right: 0;
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+  text-align: left;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.reasons .reasons-content div h3 {
+  font-size: 1.5rem;
+}
+.reasons .reasons-content div p {
+  font-size: 1.25rem;
+}
+.reasons .reasons-content div span {
+  font-size: 1.25rem;
+}
+.reasons .reasons-button {
+  margin-top: 80px;
+}
+.love-quote {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.love-quote h2 {
+  font-size: 2.25rem;
+  max-width: 900px;
+  width: 61%;
+  margin: 0 auto 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.love-quote p {
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+.buy-prints .posters {
+  margin-top: 70px;
+}
+.buy-prints .posters .buy-and-share .buy-now {
+  font-size: 1.25rem;
+  padding: 15px 29px;
+}
+.buy-prints .posters .poster-1 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.buy-prints .posters .poster-1 p {
+  font-size: 3.5rem;
+  margin-bottom: 130px;
+}
+.buy-prints .posters .poster-block-1 .poster-2 {
+  padding-top: 80px;
+}
+.buy-prints .posters .poster-block-1 .poster-2 p {
+  font-size: 2.25rem;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.buy-prints .posters .poster-block-1 .poster-2 span {
+  font-size: 1.25rem;
+  margin-left: 50px;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-3,
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 {
+  -webkit-flex-basis: 45%;
+      -ms-flex-preferred-size: 45%;
+          flex-basis: 45%;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-3 p {
+  font-size: 1.875rem;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 {
+  padding-top: 130px;
+  margin-top: 0;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 p {
+  font-size: 1.875rem;
+}
+.buy-prints .posters .poster-block-1 .poster-block-2 .poster-4 p span {
+  font-size: 2.3125rem;
+}
+.buy-prints .posters-button {
+  margin-top: 80px;
+}
+.page-footer .footer-top {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.page-footer .footer-top [class^="column"] {
+  -webkit-flex-basis: auto;
+      -ms-flex-preferred-size: auto;
+          flex-basis: auto;
+  text-align: left;
+}
+.page-footer .footer-top [class^="column"] h3 {
+  font-size: 1.25rem;
+}
+.page-footer .footer-top .column-1 {
+  display: block;
+}
+.page-footer .footer-bottom {
+  margin-top: 80px;
+}
