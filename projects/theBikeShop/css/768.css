@@ -1,0 +1,69 @@
+#pageHeader .header-top .header-nav .header-menu .header-menu-item {
+  padding-bottom: 18px;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  -webkit-border-top-left-radius: 10px;
+          border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+          border-top-right-radius: 10px;
+}
+#pageHeader .header-top .header-nav .header-menu .header-menu-item:hover .sub-menu {
+  max-height: 120px;
+}
+#pageHeader .header-slider {
+  margin-top: 220px;
+}
+#pageHeader .header-slider #headerTitle {
+  font-size: 3.125rem;
+}
+#pageHeader .header-slider #headerContent {
+  font-size: 1.75rem;
+}
+#pageHeader .header-slider .header-slider-icon {
+  margin-top: 190px;
+}
+#pageHeader .header-slider #leftPointer,
+#pageHeader .header-slider #rightPointer {
+  top: 461px;
+}
+.categories {
+  padding-top: 69px;
+  padding-bottom: 130px;
+}
+.categories .categories-list li {
+  float: left;
+  margin-right: 29px;
+  margin-top: 0px;
+}
+.categories .categories-list li img {
+  width: 235px;
+}
+.categories .categories-list li .category-content {
+  padding-top: 65px;
+}
+.categories .categories-list li .category-content p {
+  height: 40px;
+}
+.categories .categories-list li .category-content .category-button {
+  margin-top: 5px;
+}
+.categories .categories-list li:last-child {
+  margin-right: 0px;
+}
+.popular-and-price {
+  padding-top: 69px;
+}
+.popular-and-price .popular-list {
+  margin-top: 50px;
+}
+.page-footer .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.page-footer .container .footer-logo {
+  float: left;
+}
+.page-footer .container .footer-menu {
+  float: right;
+  margin-top: 10px;
+}

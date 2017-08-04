@@ -116,9 +116,10 @@
           flex-grow: 1;
   margin-left: 0;
   margin-right: 0;
-  -webkit-flex-basis: 50%;
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
+  /*
+			flex-basis: 50%;
+*/
+  width: 50%;
   text-align: left;
   padding-right: 50px;
   padding-left: 50px;

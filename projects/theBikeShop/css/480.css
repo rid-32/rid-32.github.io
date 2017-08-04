@@ -1,0 +1,34 @@
+#pageHeader .header-top .header-nav .header-menu .header-menu-item {
+  float: left;
+}
+#pageHeader .header-slider #leftPointer,
+#pageHeader .header-slider #rightPointer {
+  top: 420px;
+}
+.categories .categories-list li img {
+  width: 346px;
+}
+.categories .categories-list li .category-content {
+  padding-top: 139px;
+}
+.categories .categories-list li .category-content p {
+  height: auto;
+}
+.categories .categories-list li .category-content .category-button {
+  margin-top: 23px;
+}
+.popular-and-price .popular-list .price-list .buy-options input {
+  margin-top: 0px;
+  margin-left: 6px;
+}
+.contact-us p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contact-us #contactUs {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.page-footer .container .footer-menu li {
+  margin-right: 36px;
+}

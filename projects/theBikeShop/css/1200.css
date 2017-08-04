@@ -1,0 +1,52 @@
+#pageHeader .header-top .header-logo {
+  float: left;
+}
+#pageHeader .header-top .header-nav {
+  float: right;
+  margin-top: 0px;
+}
+#pageHeader .header-slider {
+  margin-top: 320px;
+}
+#pageHeader .header-slider .header-slider-icon {
+  margin-top: 297px;
+}
+.categories {
+  padding-bottom: 170px;
+}
+.categories h2 {
+  font-size: 1.75rem;
+}
+.categories .categories-list li img {
+  width: 346px;
+}
+.categories .categories-list li .category-content {
+  padding-top: 139px;
+}
+.categories .categories-list li .category-content p {
+  height: auto;
+}
+.categories .categories-list li .category-content .category-button {
+  margin-top: 23px;
+}
+.popular-and-price .popular-list {
+  max-width: 1920px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.popular-and-price .popular-list li {
+  margin-right: 23px;
+}
+.popular-and-price .popular-list li:last-child {
+  margin-right: 0px;
+}
+.page-footer .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
