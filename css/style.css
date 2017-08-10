@@ -16,9 +16,10 @@ body {
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: yellow url("../img/header-bg.jpg") no-repeat center top;
+  background: url("../img/header-bg.jpg") no-repeat center top;
   -webkit-background-size: cover;
           background-size: cover;
+  padding-left: 20px;
 }
 .page-header .container {
   padding-top: 50px;
@@ -31,6 +32,20 @@ body {
 .page-header .container p {
   color: #ffffff;
   font-size: 1.25rem;
+  vertical-align: top;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
 }
 .page-header .container p a {
   text-decoration: none;
@@ -43,4 +58,9 @@ body {
 .page-header .container p a:active {
   color: #7f8000;
   border-color: #7f8000;
+}
+.page-header .container p .description {
+  display: inline-block;
+  width: 300px;
+  margin-left: 10px;
 }

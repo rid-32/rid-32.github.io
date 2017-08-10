@@ -35,99 +35,46 @@ homeReferer.addEventListener( 'click', function() {
 //слайдеры на jQuery
 ( function( $ ) {
 	
-	//слайдер шапки
-	( function () {
-		
-		var backgroundStock = {
-			bg1: 'header-bg-image.png',
-			bg2: 'header-bg-image2.jpg',
-			bg3: 'header-bg-image3.jpg'
-		};
-		
-		var sliderContentArr = [
-			'it costs you nothing',
-			'can make a dark day brighter',
-			'can bring a rainbow to the skies'
-		];
-		
-		var frames = 3;
-		
-		var frame = 1;
-		
-		var allStickers = $( '#sliderStickers' ).find( 'li' );
-		
-		var timerId;
-		
-		function setHeaderFrame( frame ) {
-			
-			var elems = document.getElementById( 'sliderStickers' ).getElementsByTagName( 'li' );
-		
-			$( '#sliderStickers' ).find( 'li' ).removeClass( 'active-sticker' );
-			
-			$( elems[ frame - 1 ] ).addClass( 'active-sticker' );
-			
-			var url = 'bg' + frame;
-				
-			$( '#pageHeader' ).css('background-image', 'url(img/' + backgroundStock[ url ] + ')' );
-			
-			$( '#sliderContent' ).find( 'span' ).text( sliderContentArr[ frame - 1 ] );
-		}
-		
-		//переключение слайда по нажатию на стикер
-		allStickers.click( function() {
-			
-			frame = + this.dataset.description[2];
-			
-			setHeaderFrame( frame );
-			
-			clearTimeout( timerId );
-			
-			runTimer();
-			
-			return false;
-		} );
-		
-		//по нажатию на левый указатель
-		$( '#leftPointer' ).click( function() {
-			
-			frame == 1 ? frame = frames : --frame;
-			
-			setHeaderFrame( frame );
-			
-			clearTimeout( timerId );
-			
-			runTimer();
-		} );
-		
-		//по нажатию на правый указатель
-		$( '#rightPointer' ).click( function() {
-			
-			frame == frames ? frame = 1 : ++frame;
-			
-			setHeaderFrame( frame );
-			
-			clearTimeout( timerId );
-			
-			runTimer();
-		} );
-		
-		//автоматический запуск слайдера шапки
-		function runTimer() {
-			
-			timerId = setTimeout( function tick() {
-				
-				frame == frames ? frame = 1 : ++frame;
-				
-				setHeaderFrame( frame );
-				
-				timerId = setTimeout( tick, 5000 );
-			}, 5000 );
-		}
-		
-		runTimer();
-	
-	} )();
-	
+  //слайдер шапки сайта
+  $( document ).ready( function(){
+    $( '#pageHeader' ).backgroundSlider( {
+      images: [
+        'img/header-bg-image.png',
+        'img/header-bg-image2.jpg',
+        'img/header-bg-image3.jpg'
+      ],
+      bgColors: [
+        '#000'
+      ],
+      bgSize: [
+        'cover',
+        'cover',
+        'cover'
+      ],
+      bgPosition: [
+        'left center',
+        'center top',
+        'center top'
+      ],
+      bgRepeat: [
+        'no-repeat',
+        'no-repeat',
+        'no-repeat'
+      ],
+      autoRun: true,
+      sticker: '#sliderStickers',
+      activeClass: '.active-sticker',
+      stickerClick: true,
+      leftPtr: '#leftPointer',
+      rightPtr: '#rightPointer',
+      slideOther: {                  
+        changeParent: '#sliderContent',        
+        changeTarget: '.header-title',        
+        insertFrom: 'sliderContent.html'           
+      }
+    } );
+  } );
+  
 	//слайдер цитат
 	( function() {
 		
@@ -210,4 +157,6 @@ homeReferer.addEventListener( 'click', function() {
 		runTimer();
 	} )();
 	
+  
 } )( jQuery );
+

@@ -22,8 +22,9 @@ body {
 .page-header {
   height: 100%;
   box-sizing: border-box;
-  background: yellow url("../img/header-bg.jpg") no-repeat center top;
+  background: url("../img/header-bg.jpg") no-repeat center top;
   background-size: cover;
+  padding-left: 20px;
   
   .container {
     padding-top: 50px;
@@ -37,6 +38,11 @@ body {
     p {
       color: #ffffff;
       font-size: 1.25rem;
+      vertical-align: top;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 600px;
       
       a {
         text-decoration: none;
@@ -51,6 +57,12 @@ body {
       a:active {
         color: darken(yellow, 25%);
         border-color: darken(yellow, 25%);
+      }
+      
+      .description {
+        display: inline-block;
+        width: 300px;
+        margin-left: 10px;
       }
     }
   }

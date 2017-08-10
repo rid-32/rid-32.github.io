@@ -1,0 +1,12 @@
+.page-header {
+  height: auto;
+}
+.page-header .container p {
+  width: 300px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.page-header .container p .description {
+  margin-left: 25px;
+}

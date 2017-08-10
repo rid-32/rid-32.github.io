@@ -89,7 +89,7 @@ body {
 #pageHeader {
   margin: 0;
   padding: 0;
-  background: #0d1013 url("../img/header-bg-image.png") no-repeat -80px center;
+  background: #0d1013 url("../img/header-bg-image.png") no-repeat center center;
   -webkit-background-size: cover;
           background-size: cover;
   padding-top: 50px;
